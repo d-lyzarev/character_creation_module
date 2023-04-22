@@ -2,7 +2,10 @@ from random import randint
 
 
 def attack(char_name: str, char_class: str) -> str:
+<<<<<<< HEAD
     """Атака."""
+=======
+>>>>>>> bfe523490677976cd0ec70fc06b8e335e5363efb
     if char_class == 'warrior':
         return (
             f'{char_name} нанёс урон противнику'
@@ -17,7 +20,10 @@ def attack(char_name: str, char_class: str) -> str:
 
 
 def defence(char_name: str, char_class: str) -> str:
+<<<<<<< HEAD
     """Защита."""
+=======
+>>>>>>> bfe523490677976cd0ec70fc06b8e335e5363efb
     if char_class == 'warrior':
         return (f'{char_name} блокировал {10 + randint(5, 10)} урона')
     if char_class == 'mage':
@@ -27,7 +33,10 @@ def defence(char_name: str, char_class: str) -> str:
 
 
 def special(char_name: str, char_class: str) -> str:
+<<<<<<< HEAD
     """Специальное умение."""
+=======
+>>>>>>> bfe523490677976cd0ec70fc06b8e335e5363efb
     if char_class == 'warrior':
         return (
             f'{char_name} применил специальное умение'
@@ -39,7 +48,10 @@ def special(char_name: str, char_class: str) -> str:
 
 
 def start_training(char_name: str, char_class: str) -> str:
+<<<<<<< HEAD
     """Начало тренировки."""
+=======
+>>>>>>> bfe523490677976cd0ec70fc06b8e335e5363efb
     if char_class == 'warrior':
         print(f'{char_name}, ты Воитель — отличный боец ближнего боя.')
     if char_class == 'mage':
@@ -65,7 +77,10 @@ def start_training(char_name: str, char_class: str) -> str:
 
 
 def choice_char_class() -> str:
+<<<<<<< HEAD
     """Выбор персонажа."""
+=======
+>>>>>>> bfe523490677976cd0ec70fc06b8e335e5363efb
     approve_choice: str = ('')
     char_class: str = ('')
     while approve_choice != 'y':
@@ -100,4 +115,8 @@ def main():
     print(start_training(char_name, char_class))
 
 
+<<<<<<< HEAD
 main() 
+=======
+main()
+>>>>>>> bfe523490677976cd0ec70fc06b8e335e5363efb
